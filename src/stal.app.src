@@ -14,7 +14,8 @@
                   public_key,
                   ssl,
                   inets,
-                  jsx
+                  jsx,
+                  iso8601
                  ]},
   {mod, {stal_app, []}},
   {env, [
