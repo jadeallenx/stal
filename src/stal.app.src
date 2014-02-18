@@ -1,0 +1,22 @@
+% vim:ft=erlang
+{application, stal,
+[
+  {description, "Stal Prototype"},
+  {vsn, git},
+  {modules, []},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  sasl,
+                  crypto,
+                  asn1,
+                  public_key,
+                  ssl,
+                  inets,
+                  jsx
+                 ]},
+  {mod, {stal_app, []}},
+  {env, [
+        ]}
+ ]}.
